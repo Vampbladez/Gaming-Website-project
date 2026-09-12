@@ -27,6 +27,7 @@ img {
 .wrapper {
     background: linear-gradient(171deg,rgba(58, 41, 159, 1) 43%, rgba(35, 81, 245, 1) 100%);
     width: 100%;
+    
 }
 
 .container {
@@ -134,4 +135,24 @@ header nav ul li.btn a:hover {
     position: absolute;
     top: -150px;
     right: 0;
+}
+
+/*секция с карточками игр*/
+
+.trending {
+    padding-top: 200px;
+}
+
+.trending h3 {
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.trending .see-all {
+    color: aliceblue;
+    background: #25211D;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
 }
