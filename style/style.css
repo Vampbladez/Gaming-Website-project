@@ -155,4 +155,16 @@ header nav ul li.btn a:hover {
     padding: 12px 23px;
     float: right;
     display: block;
+    transition: all 500ms;
+}
+
+.trending .see-all:hover {
+    transform: scale(1.1);
+}
+
+.trending .games {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
 }
