@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Poppins";
-  src: url("/style/fonts/Poppins-ExtraBold.ttf") format("woff2"),
-       url("/style/fonts/Poppins-ExtraBold.ttf") format("woff");
+  src: url("./fonts/Poppins-ExtraBold.ttf") format("truetype"),
+       url("./fonts/Poppins-ExtraBold.ttf") format("truetype");
 }
 
 
