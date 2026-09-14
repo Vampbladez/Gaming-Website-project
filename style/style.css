@@ -20,8 +20,15 @@ a {
     text-decoration: none;
 }
 
-img {
+/*img {
     max-width: 100%;
+}*/
+
+.images {
+    width: 251px;
+    height: 277px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .wrapper {
@@ -150,8 +157,8 @@ header nav ul li.btn a:hover {
 
 .trending .see-all {
     color: aliceblue;
-    background: #25211D;
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.164);
+    border-radius: 9px;
     padding: 12px 23px;
     float: right;
     display: block;
