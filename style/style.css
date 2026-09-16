@@ -155,7 +155,7 @@ header nav ul li.btn a:hover {
     font-size: 31px;
 }
 
-.trending .see-all {
+.trending .see-all, .projects .see-all{
     color: aliceblue;
     background: rgba(255, 255, 255, 0.164);
     border-radius: 9px;
@@ -165,7 +165,7 @@ header nav ul li.btn a:hover {
     transition: all 500ms;
 }
 
-.trending .see-all:hover {
+.trending .see-all:hover, .projects .see-all:hover {
     transform: scale(1.1);
 }
 
@@ -273,4 +273,12 @@ header nav ul li.btn a:hover {
     display: flex;
     justify-content: space-around;
     margin-bottom: 25px;
+    gap: 27px;
+}
+
+.projects .see-all {
+    float: none;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
 }
