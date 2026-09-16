@@ -40,7 +40,7 @@ a {
 .wrapper {
     background: linear-gradient(171deg,rgba(58, 41, 159, 1) 43%, rgba(35, 81, 245, 1) 100%);
     width: 100%;
-    
+    overflow-x: hidden;
 }
 
 .container {
@@ -132,7 +132,8 @@ header nav ul li.btn a:hover,
     margin: 30px 0;
 }
 
-.hero--info .btn {
+.hero--info .btn,
+.hero-about .info .btn {
     background: #fd7418;
     color: aliceblue;
     border-radius: 50px;
@@ -142,7 +143,8 @@ header nav ul li.btn a:hover,
     font-size: 17px;
 }
 
-.hero--info .btn:hover {
+.hero--info .btn:hover,
+.hero-about .info .btn:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -353,6 +355,32 @@ header nav ul li.btn a:hover,
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+
+/*page about us*/
+
+.hero-about {
+    position: relative;
+}
+
+.hero-about .info{
+    width: 500px;
+    padding: 250px 0;
+}
+
+.hero-about .info h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.hero-about .info .btn {
+    margin-top: 20px;
+}
+
+.hero-about img {
+    position: absolute;
+    right: -228px;
+    top: 0;
 }
 
 footer {
