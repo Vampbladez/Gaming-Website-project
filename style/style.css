@@ -76,7 +76,7 @@ header nav ul li a {
     color: aliceblue;
 }
 
-header nav ul li.active::after {
+header nav ul li::after {
     content: '';
     display: block;
     width: 40px;
@@ -86,10 +86,12 @@ header nav ul li.active::after {
     position: relative;
     top: 10px;
     right: 15px;
+    opacity: 0;
 }
 
-header nav ul li:not(.active):not(.btn) a:hover {
-    border-bottom: 5px solid #fd7418;
+header nav ul li.active::after,
+header nav ul li:not(.active):not(.btn):hover::after {
+    opacity: 1;
 }
 
 header nav ul li.btn a,
